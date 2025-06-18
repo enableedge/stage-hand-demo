@@ -1,0 +1,33 @@
+{
+  "name": "stage-hand-demo",
+  "version": "1.0.0",
+  "description": "A simple demo project for testing Stagehand",
+  "main": "stage-demo.ts",
+  "scripts": {
+    "start": "tsx stage-demo.ts",
+    "dev": "tsx watch stage-demo.ts",
+    "build": "tsc",
+    "setup": "playwright install",
+    "postinstall": "playwright install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "^1.0.0",
+    "playwright": "^1.40.0",
+    "zod": "^3.22.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "keywords": [
+    "stagehand",
+    "automation",
+    "browser",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT"
+}
